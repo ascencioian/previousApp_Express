@@ -3,7 +3,7 @@ This project is to use express with a previous project. Users can enter in a wor
 
 **Link to project:**
 
-
+<img src="images/livescreenshot.png">
 
 ## How It's Made:
 
