@@ -7,8 +7,8 @@ const app = express();
 var db, collection;
 
 //your database information here
-const url
-const dbName
+const url = "mongodb+srv://21SavageProject:ZhWia9Jvbz4b3B613411%21%40@cluster0.mzrmv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const dbName = "palindrome";
 
 app.listen(3000, () => {
   MongoClient.connect(url, { useNewUrlParser: true, useUnifiedTopology: true }, (error, client) => {
